@@ -1,0 +1,495 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+
+
+#menu-icon{
+  display: initial;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.n-btn{
+ display: none;
+}
+
+.navlinks{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 50px 50px;
+  top: 84px;
+  right: 0;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  transition: all .7s ease-in-out;
+  backdrop-filter:blur(50px);
+}
+
+.navlinks a{
+  display: block;
+  padding: 0;
+  margin: 0px 0px 32px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+.navlinks.open{
+  left: 0;
+}
+
+.banner-text h1 {
+  font-size: 36px;
+}
+.banner-text h1 span{
+  font-size: 36px;
+}
+.banner-text p br{
+  display: none;
+}
+.banner-text p{
+  font-size: 16px;
+}
+.banner{
+  height:auto;
+  padding:100px 16px;
+}
+.service{
+  padding: 40px 16px;
+}
+.service-item{
+  padding: 10px;
+}
+.service-content{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.team-member{
+  padding: 40px 0px;
+ 
+}
+.member-row{
+  display: grid;
+  flex-direction: column;
+ }
+ .feature{
+  padding: 40px 16px;
+ }
+.feature-item{
+  margin:0px;
+}
+.gallery-items{
+  grid-template-columns: auto auto auto;
+}
+.count-list{
+  display: grid;
+}
+.feature-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.member-row {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.count-list {
+     display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: flex-end;
+    justify-content: start; 
+}
+.footer-content{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+}
+.footer{
+  padding: 100px 16px;
+}
+.sub-btn{
+  right: 49px;
+}
+.form input{
+  width: 400px;
+  position: relative;
+  padding: 12px 20px;
+  border-radius: 50px;
+
+}
+.footer-icon {
+    margin-top: 28px;
+    margin-left: 0;
+    text-align: center;
+}
+.footer-bottom-content {
+    display: block;
+    text-align: center;
+  
+}
+.testimonial-slider {
+    width: 100%;
+    padding: 40px 16px;
+    background-color: #f9f9ff;
+}
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 30px;
+}
+.ms-box{
+  display: grid;
+}
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+
+
+#menu-icon{
+  display: initial;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.n-btn{
+ display: none;
+}
+
+.navlinks{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 50px 50px;
+  top: 84px;
+  right: 0;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  transition: all .7s ease-in-out;
+  backdrop-filter:blur(50px);
+}
+
+.navlinks a{
+  display: block;
+  padding: 0;
+  margin: 0px 0px 32px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+.navlinks.open{
+  left: 0;
+}
+
+.banner-text h1 {
+  font-size: 36px;
+}
+.banner-text h1 span{
+  font-size: 36px;
+}
+.banner-text p br{
+  display: none;
+}
+.banner-text p{
+  font-size: 16px;
+}
+.banner{
+  height:auto;
+  padding:100px 0px;
+}
+
+.service-content{
+  display: grid;
+  grid-template-columns: auto;
+}
+.team-member{
+  padding: 40px 0px;
+ 
+}
+.member-row{
+  display: grid;
+  flex-direction: column;
+ }
+ .feature{
+  padding: 40px 16px;
+ }
+.feature-item{
+  margin:0px;
+}
+.gallery-items{
+  grid-template-columns: auto;
+}
+.count-list{
+  display: grid;
+}
+.feature-grid {
+   
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.footer-content{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+}
+.footer{
+  padding: 40px 16px;
+}
+.sub-btn{
+  right: 49px;
+}
+.form input{
+  width: 400px;
+  position: relative;
+  padding: 12px 20px;
+  border-radius: 50px;
+
+}
+.footer-icon {
+    margin-top: 28px;
+    margin-left: 0;
+    text-align: center;
+}
+.footer-bottom-content {
+    display: block;
+    text-align: center;
+  
+}
+.testimonial-slider {
+    width: 100%;
+    padding: 40px 16px;
+    background-color: #f9f9ff;
+}
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 30px;
+}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    .row>*{
+        width:auto;
+      }
+
+  .t-btn{
+    padding: 0px 12px;
+  }
+
+
+#menu-icon{
+  display: initial;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.n-btn{
+ display: none;
+}
+
+.navlinks{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 50px 50px;
+  top: 84px;
+  right: 0;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  transition: all .7s ease-in-out;
+  backdrop-filter:blur(50px);
+}
+
+.navlinks a{
+  display: block;
+  padding: 0;
+  margin: 0px 0px 32px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+.navlinks.open{
+  left: 0;
+}
+
+
+
+.banner-text h1 {
+  font-size: 36px;
+}
+.banner-text h1 span{
+  font-size: 36px;
+}
+.banner-text p br{
+  display: none;
+}
+.banner-text p{
+  font-size: 16px;
+}
+.banner{
+  height:auto;
+  padding:100px 0px;
+}
+.service{
+  padding: 40px 16px;
+}
+.service-item{
+  padding: 16px;
+}
+
+.service-content{
+  display: grid;
+  grid-template-columns: auto;
+}
+.team-member{
+  padding: 40px 0px;
+ 
+}
+.member-row{
+  display: grid;
+  flex-direction: column;
+ }
+.feature-item{
+  margin:0px;
+}
+.gallery-items{
+  grid-template-columns: auto;
+}
+.count-list{
+  flex-direction: column;
+}
+.feature-grid{
+  grid-template-columns: auto;
+  margin-top: 10px;
+}
+.f-item {
+    margin: 10px;
+    padding: 32px;
+    margin-bottom: 12px;
+   
+}
+.title p{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.project-count{
+  padding: 40px 0px;
+}
+.testimonial-slider{
+    padding: 40px 0;
+   
+}
+.item{
+  text-align: center;
+ }
+ .feature{
+  padding: 40px 0px;
+  
+}
+.client-logo{
+  padding: 40px 0px;
+ 
+}
+.footer{
+  padding: 40px 16px;
+
+}
+
+.footer-content {
+    display: block;
+  
+}
+.footer-left{
+  padding: 0 10px;
+  text-align: center;
+}
+.footer-middle{
+  padding: 0 10px;
+  text-align: center;
+}
+.footer-right{
+  padding: 0 10px;
+  text-align: center;
+}
+.sub-btn{
+  right: 26px;
+}
+.form input{
+  width: 100%;
+  position: relative;
+  padding: 12px 20px;
+  border-radius: 50px;
+
+}
+.footer-icon {
+    margin-top: 28px;
+    margin-left: 0;
+    text-align: center;
+}
+.footer-bottom-content {
+    display: block;
+  
+}
+}
